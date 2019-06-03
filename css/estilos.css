@@ -8,6 +8,7 @@ body{
 	font-family: trebuchet ms;
 	color: white;
 }
+
 h1::before{
 	content: "before";
 	background: green;
@@ -21,4 +22,20 @@ h1::after{
 p::first-letter{
 	font-size: 36px;
 	color: gold;
+}
+
+.colorrgb{
+	color: rgb(255,0,0);
+}
+
+.colorrgba{
+	color: rgba(255,0,0,0.4);
+}
+
+.colorhsl{
+	color: hsl(240,100%,50%);
+}
+
+.colorhsla{
+	color: hsl(240,100%,50%,.4);
 }
