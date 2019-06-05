@@ -1,0 +1,19 @@
+.parrafo1{
+	background: purple;
+	width: 360px; /*Dimension absoluta (px)*/
+	height: 50px
+}
+
+.parrafo2{
+	background: maroon;
+	width: 80%; /*Dimension relativa (50% de la dimension de ancho mas proxima)*/
+	height: 50px
+}
+
+.parrafo3{
+	background: chocolate;
+	font-size: 16px; /*Dimension absoluta (px)*/
+	width: 20em; /*Dimension relativa (em hace referencia al tamaño de la fuente)*/
+	/*Como este es 16px al hacer 20em el tamaño del elemto queda 16x20px, es decir 20 veces mas ancho que la fuente*/
+	height: 80px;
+}
