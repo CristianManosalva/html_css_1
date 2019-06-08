@@ -12,10 +12,14 @@ body{
 	background: blue;
 	height: 100px;
 	width: 200px;
+	border: 40px solid rgb(0,255,0);
 }
 
 .caja3{
 	background: red;
 	height: 100px;
 	width: 200px;
+	border-width: 20px;
+	border-style: solid;
+	border-color: black;
 }
